@@ -16,4 +16,12 @@ $T=v_1+v_2+\cdots+v_k, where\ v_1, v_2, \cdots, v_k i.i.d. Exp(k\mu)$
 
 $b_k(t)=\frac{\mu k(\mu kt)^{k-1}}{(k-1)!}e^{-\mu kt},\ t>0$
 
-$E[T]=\sum\limits_{i=1}^kE(v_i)=\sum\limits_{i=1}^k\frac{1}{k\mu}=\frac{1}{\mu}; Var[T]=\frac{1}{k\mu^2}$
+$E[T]=\sum\limits_{i=1}^kE(v_i)=\sum\limits_{i=1}^k\frac{1}{k\mu}=\frac{1}{\mu}; Var[T]=\frac{1}{k\mu^2}$#
+
+## M/M/1模型
+
+$$\begin{array}{l}P_0=1-\rho\\P_n=(1-\rho)\rho^n,\ n\ge1\end{array}\ \rho<1$$
+
+$$\begin{array}{ll}(1)\ L_s=\frac{\lambda}{\mu-\lambda} & (2)\ L_q=\frac{\rho\lambda}{\mu-\lambda}\\(3)\ W_s=\frac{1}{\mu-\lambda} & (4)\ W_q=\frac{\rho}{\mu-\lambda}\end{array}$$
+
+$$\begin{array}{ll}(1)\ L_s=\lambda W_s & (2)\ L_q=\lambda W_q\\(3)\ W_s=W_q+\frac{1}{\mu} & (4)\ L_s=L_q+\frac{\lambda}{\mu}\end{array}$$
