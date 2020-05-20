@@ -25,3 +25,16 @@ $$\begin{array}{l}P_0=1-\rho\\P_n=(1-\rho)\rho^n,\ n\ge1\end{array}\ \rho<1$$
 $$\begin{array}{ll}(1)\ L_s=\frac{\lambda}{\mu-\lambda} & (2)\ L_q=\frac{\rho\lambda}{\mu-\lambda}\\(3)\ W_s=\frac{1}{\mu-\lambda} & (4)\ W_q=\frac{\rho}{\mu-\lambda}\end{array}$$
 
 $$\begin{array}{ll}(1)\ L_s=\lambda W_s & (2)\ L_q=\lambda W_q\\(3)\ W_s=W_q+\frac{1}{\mu} & (4)\ L_s=L_q+\frac{\lambda}{\mu}\end{array}$$
+
+## M/M/1/N/$\infty$模型
+
+$$\left\{\begin{array}{lc}P_0=\frac{1-\rho}{1-\rho^{N+1}} & \rho\not= 1 \\ P_n=\frac{1-\rho}{1-\rho^{N+1}} & n\le N \end{array}\right.$$
+
+$$\left\{\begin{array}{l}
+L_s=\frac{\rho}{1-\rho}-\frac{(N+1)\rho^{N+1}}{1-\rho^{N+1}}\\
+L_q=L_s-(1-P_0)\\
+W_s=\frac{L_s}{\mu(1-P_0)}\\
+W_q=W_s-\frac{1}{\mu}
+\end{array}\right.$$
+
+https://raw.githubusercontent.com/RabbitWhite1/pictures/master/operational_research/M_M_1_P_n.png
