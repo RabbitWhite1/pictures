@@ -37,4 +37,14 @@ W_s=\frac{L_s}{\mu(1-P_0)}\\
 W_q=W_s-\frac{1}{\mu}
 \end{array}\right.$$
 
+$$\lambda_e=\lambda(1-P_N)$$
+
 https://raw.githubusercontent.com/RabbitWhite1/pictures/master/operational_research/M_M_1_P_n.png
+
+## Little公式
+
+- $\mu$: 平均服务率
+- $1/\mu$: 平均服务时间
+- $\lambda$: 平均到达率
+- $\lambda_e$: 有效到达率($\lambda,\ \lambda(1-P_N),\ \lambda(m-1))$
+$$$$
