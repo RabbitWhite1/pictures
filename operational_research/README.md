@@ -58,7 +58,7 @@ L_q=\lambda_eW_q
 
 ## 存储论
 
-### 模型一: 不允许缺货, 备货时间很短
+### 不允许缺货, 备货时间很短
 
 $$需求速度R;\ 生产速度P; 经济订购批量Q_0;\ 初始存储量S;\ 最大缺货量B_0\\
 单位时间单位物品存储费C_1;\ 缺货费C_2;\ 订购费C_3;\ 货物单价K; $$
@@ -66,7 +66,7 @@ $$需求速度R;\ 生产速度P; 经济订购批量Q_0;\ 初始存储量S;\ 最�
 $C(t)=\frac{C_3}{t}+KR+\frac{1}{2}C_1Rt\\
 Q_0=\sqrt{\frac{2C_3R}{C_1}}; C_0=\sqrt{2C_1C_3R}$
 
-### 模型二: 不允许缺货, 生产需要一定时间
+### 不允许缺货, 生产需要一定时间
 
 $C(t)=\frac{1}{t}\left[\frac{1}{2}C_1(P-R)\frac{Rt^2}{P}+C_3\right]\\
 t_0=\sqrt{\frac{2C_3}{C_1R}\cdot\frac{P}{P-R}}\\
@@ -74,7 +74,7 @@ Q_0=\sqrt{\frac{2C_3R}{C_1}\cdot\frac{P}{P-R}}\\
 C(t_0)=\sqrt{2C_1C_3R\cdot\frac{P-R}{P}}\\
 $
 
-### 模型三: 允许缺货, 备货时间很短
+### 允许缺货, 备货时间很短
 
 $
 C(t,S)=\frac{1}{t}\left[C_1\frac{S^2}{2R}+C_2\frac{(Rt-S)^2}{2R}+C_3\right]\\
@@ -83,7 +83,7 @@ S_0=\sqrt{\frac{2C_3R}{C_1}\cdot\frac{C_2}{C_1+C_2}}\\
 C_0(t_0,S_0)=\sqrt{2C_1C_3R\cdot\frac{C_2}{C_1+C_2}}\\
 $
 
-### 模型四: 允许缺货, 生产需一定时间
+### 允许缺货, 生产需一定时间
 
 $
 C(t,t_2)=\frac{1}{t}\left[\frac{1}{2}C_1\frac{(P-R)R}{P}(t-t_2)^2+\frac{1}{2}C_2\frac{(P-R)R}{P}t_2^2+C_3\right]\\
@@ -95,8 +95,4 @@ B_0=Rt_1\\
 C_0(t_0,S_0)=\sqrt{2C_1C_3R\cdot\frac{C_2}{C_1+C_2}\cdot\frac{P}{P-R}}\\
 $
 
-
-
-
-
-https://raw.githubusercontent.com/RabbitWhite1/pictures/master/operational_research/M_M_1_P_n.png
+https://raw.githubusercontent.com/RabbitWhite1/pictures/master/operational_research/storage_model4.png
